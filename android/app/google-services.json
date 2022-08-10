@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "852464649246",
+    "project_id": "section7appmartyna",
+    "storage_bucket": "section7appmartyna.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852464649246:android:cd29ab48889eb65c601a0f",
+        "android_client_info": {
+          "package_name": "com.martynabogacz.cantwait28"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852464649246-8rvm53i414bh1itc92ulco0u21eamit3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH5FtcnB9U2D_2ZkGPGnV6r7XXs-jgj_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852464649246-8rvm53i414bh1itc92ulco0u21eamit3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
