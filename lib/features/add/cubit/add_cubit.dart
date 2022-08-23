@@ -14,6 +14,7 @@ class AddCubit extends Cubit<AddState> {
     DateTime releaseDate,
   ) async {
     try {
+      // throw Exception("Something went wrong");
       await FirebaseFirestore.instance.collection('items').add(
         {
           'title': title,
