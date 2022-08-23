@@ -76,7 +76,7 @@ class _HomePageBody extends StatelessWidget {
                     context.read<HomeCubit>().remove(documentID: itemModel.id);
                   },
                   child: _ListViewItem(
-                    document: itemModel,
+                    itemModel: itemModel,
                   ),
                 ),
             ],
@@ -151,15 +151,15 @@ class _ListViewItem extends StatelessWidget {
                   margin: const EdgeInsets.all(10),
                   padding: const EdgeInsets.all(10),
                   child: Column(
-                    children: const [
+                    children: [
                       Text(
-                        '0',
-                        style: TextStyle(
+                        itemModel.daysLeft(),
+                        style: const TextStyle(
                           fontSize: 20.0,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      Text('days left'),
+                      const Text('days left'),
                     ],
                   ),
                 ),
